@@ -1,0 +1,22 @@
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#contato > iframe{
+    width: 100%;
+    padding: 15px;
+}
+
+#contato > h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#contato > p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}

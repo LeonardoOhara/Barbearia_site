@@ -4,9 +4,18 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    
 }
 .img-home{
     width: 300px;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.img-home.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #home > p {

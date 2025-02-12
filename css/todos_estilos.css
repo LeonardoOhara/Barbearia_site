@@ -1,3 +1,5 @@
-@import url(./pages/servicos.css);
+@import url(./pages/servicos.css); 
 @import url(./pages/home.css);
-@import url(./style.css);
+@import url(./pages/cabecalho.css);
+@import url(./pages/contato.css);
+@import url(./global/global.css);
