@@ -18,8 +18,14 @@ Grandes Telas: acima de 1200px
     
 }
 
-@media screen and (min-width:992px) and (max-width:1200px){ /* DESKTOP */
-    
+@media screen and (min-width:992px) and (max-width:1024px){ /* DESKTOP */
+    .servico-card {
+        width: 200px;
+    }
+
+    .servicos-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
    
 }
 
@@ -68,6 +74,25 @@ Grandes Telas: acima de 1200px
     #contato > .contato-container> p {
         font-size: 1.2em;
         margin-bottom: 5px;
+    }
+    
+    .servicos-container {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+        height: 100%;  
+    }
+
+    .servico-card {
+        width: 240px;
+        height: 300px;
+    }
+    
+    #catalogo-servicos { 
+        height: 100vh;
     }
     
 }
