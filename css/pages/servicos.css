@@ -1,5 +1,9 @@
 #catalogo-servicos {
-    background-color: #1E3A8A;
+    background: rgb(2,0,36);
+background: -moz-linear-gradient(115deg, rgba(2,0,36,1) 0%, rgba(27,54,149,1) 42%, rgba(0,121,255,1) 100%);
+background: -webkit-linear-gradient(115deg, rgba(2,0,36,1) 0%, rgba(27,54,149,1) 42%, rgba(0,121,255,1) 100%);
+background: linear-gradient(115deg, rgba(2,0,36,1) 0%, rgba(27,54,149,1) 42%, rgba(0,121,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#0079ff",GradientType=1);
     height: 100%;
     padding: 50px ;
     color: #fff;
@@ -12,11 +16,17 @@
 }
 
 .servicos-container {
+    width: calc(100% / 2 - 3);
+}
+
+.servicos-container {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: wrap ;
 }
+
+
 
 .servico-card {
     background-color: #2260e48e;

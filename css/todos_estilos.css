@@ -2,4 +2,5 @@
 @import url(./pages/home.css);
 @import url(./pages/cabecalho.css);
 @import url(./pages/contato.css);
+@import url(./global/media_query.css);
 @import url(./global/global.css);
